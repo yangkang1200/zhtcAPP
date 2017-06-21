@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+    <script src="js/jquery-2.0.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header id="header" class="mui-bar mui-bar-nav nav-title">
+			<a class="mui-icon mui-icon-left-nav iconfont icon-ditu" href="find-parking.html"></a>
+			<h1 class="mui-title">智慧停车</h1>
+			<i class="mui-icon iconfont icon-jiazai mui-pull-right gr"></i>
+	</header>
+	<div class="mui-content">
+			<div class="search-lan">
+				<input type="text" placeholder="请输入停车地点"/>
+				<i class="iconfont icon-sousuo_sousuo"></i>
+			</div>
+			<div class="tcn">
+				<img src="images/tcn.png" alt="" />
+			</div>
+			<div class="clearfix"></div>
+			<div class="con-bom">
+				<div class="wea-qk">
+					<ul class="wea-con">
+						<li class="f1">21<sup>。<sup></li>
+						<li class="f2">32<sup>。<sup></li>
+						<li class="tqqk">
+							<img src="images/wea.png" alt="" />
+							<span>多云 微风2级 </span>
+							<p>102 轻度污染</p>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+					<div class="fjtc">
+						<div>
+							<img src="images/tc_1.png" alt="" />
+							<p style="font-size: 18px;color: #404040;font-weight: bold;">附近停车场</p>
+							<span>闲时车位挣钱</span>
+						</div>
+						<div>
+							<p style="color: #29b1ef;text-align: center;font-size: 18px;">1家</p>
+							<span>立即前往</span>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					<ul class="jxfw">
+						<li>
+							<a href="" style="border-right: solid 1px #ccc;">
+								<img src="images/zh-1.png" alt="" />
+								<p>加油充值</p>
+								<span>错过停车挣钱</span>
+							</a>
+							
+						</li>
+						<li>
+							<a href="">
+								<img src="images/zh-2.png" alt="" />
+								<p>洗车服务</p>
+								<span>错过停车挣钱</span>
+							</a>
+						</li>
+						<li>
+							<a href="" style="border-right: solid 1px #ccc;">
+								<img src="images/zh-3.png" alt="" />
+								<p>车险查询</p>
+								<span>错过停车挣钱</span>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/zh-4.png" alt="" />
+								<p>违章查询</p>
+								<span>错过停车挣钱</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="qzcw">
+				<img src="images/qzcw.png" alt="" />
+			</div>
+	</div>
+	<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="tcc_detail.html">
+				<span class="mui-icon iconfont icon-bangwozhao"></span>
+				<span class="mui-tab-label">找车位</span>
+			</a>
+			<a class="mui-tab-item" href="parking-rent.html">
+				<span class="mui-icon iconfont icon-zutubiao"></span>
+				<span class="mui-tab-label">车位求租</span>
+			</a>
+			<a class="mui-tab-item tj" href="index.html">
+			</a>
+			<a class="mui-tab-item" href="user.html">
+				<span class="mui-icon iconfont icon-tabmeinactive"></span>
+				<span class="mui-tab-label">个人中心</span>
+			</a>
+			<a class="mui-tab-item" href="message.html">
+				<span class="mui-icon iconfont icon-tubiao07"></span>
+				<span class="mui-tab-label">消息</span>
+			</a>
+		</nav>
+</body>
+<script type="text/javascript">
+	mui('body').on('tap','a',function(){document.location.href=this.href;});
+</script>
+</html>

@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+    <script src="js/jquery-2.0.3.js" type="text/javascript" charset="utf-8"></script>
+     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header id="header" class="mui-bar mui-bar-nav nav-title">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">个人中心</h1>
+	</header>
+	<div class="mui-content">
+		<div class="con-bo">
+			<div class="tb_pic">
+				<img src="images/touxiang.jpg" alt="" />
+				<p>000-0000-0000</p>
+			</div>
+			<ul class="grzlb">
+				<li>
+					<a href="fb_person.html">
+						<i class="iconfont icon-icon07"></i>
+						<span>我发布的车位</span>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right a1"></i>
+					</a>
+				</li>
+				<li>
+					<a href="parking-rent.html">
+						<i class="iconfont icon-dingwei"></i>
+						<span>我的求租</span>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li>
+				<li>
+					<a href="xfjl.html">
+						<i class="iconfont icon-icon"></i>
+						<span>我的订单</span>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li>
+				<li>
+					<a href="focus_person.html">
+						<i class="iconfont icon-xin"></i>
+						<span>我关注的车位</span>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li>
+				<li>
+					<a href="money.html">
+						<i class="iconfont icon-qianbao-copy"></i>
+						<span>我的钱包</span>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li>
+				<li>
+					<a href="message.html">
+						<i class="iconfont icon-iconset0218"></i>
+						<span>消息推送</span>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li>
+				<li>
+					<a href="about_our.html">
+						<i class="iconfont icon-gerenzhongxin"></i>
+						<span>关于我们</span>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<i class="iconfont icon-shezhi"></i>
+						<span>设置</span>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="tcc_detail.html">
+				<span class="mui-icon iconfont icon-bangwozhao"></span>
+				<span class="mui-tab-label">找车位</span>
+			</a>
+			<a class="mui-tab-item" href="parking-rent.html">
+				<span class="mui-icon iconfont icon-zutubiao"></span>
+				<span class="mui-tab-label">车位求租</span>
+			</a>
+			<a class="mui-tab-item tj" href="index.html">
+			</a>
+			<a class="mui-tab-item mui-active" href="user.html">
+				<span class="mui-icon iconfont icon-tabmeinactive"></span>
+				<span class="mui-tab-label">个人中心</span>
+			</a>
+			<a class="mui-tab-item" href="message.html">
+				<span class="mui-icon iconfont icon-tubiao07"></span>
+				<span class="mui-tab-label">消息</span>
+			</a>
+		</nav>
+</body>
+<script type="text/javascript">
+	mui('body').on('tap','a',function(){document.location.href=this.href;});
+</script>
+</script>
+</html>

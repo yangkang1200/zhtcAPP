@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+    <script src="js/jquery-2.0.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header id="header" class="mui-bar mui-bar-nav nav-title">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">个人信息</h1>
+			<i class="mui-btn mui-btn-blue mui-btn-link mui-pull-right us" style="color: #fff;">保存</i>
+	</header>
+	<div class="mui-content">
+		<div class="con-bo">
+			<ul class="grzlb grzl">
+				<li>
+					<a href="" style="line-height: 81px;">
+						<span>头像</span>
+						<img src="images/touxiang.jpg" alt="" />
+						<i class="mui-icon mui-icon-arrowright mui-pull-right a1" style="top: 25px;"></i>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span>昵称</span>
+						<small>智慧停车用户</small>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						
+						<span>手机号</span>
+						<small>186****6666</small>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li><li>
+					<a href="">
+						
+						<span>性别</span>
+						<small>男</small>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						
+						<span>车辆信息</span>
+						<small></small>
+						<i class="mui-icon mui-icon-arrowright mui-pull-right"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="find-parking.html">
+				<span class="mui-icon mui-icon-home"></span>
+				<span class="mui-tab-label">找车位</span>
+			</a>
+			<a class="mui-tab-item" href="parking-rent.html">
+				<span class="mui-icon mui-icon-map"></span>
+				<span class="mui-tab-label">车位求租</span>
+			</a>
+			<a class="mui-tab-item tj" href="index.html">
+			</a>
+			<a class="mui-tab-item mui-active" href="user.html">
+				<span class="mui-icon mui-icon-contact"></span>
+				<span class="mui-tab-label">个人中心</span>
+			</a>
+			<a class="mui-tab-item " href="message.html">
+				<span class="mui-icon mui-icon-chatboxes"><span class="mui-badge">3</span></span>
+				<span class="mui-tab-label">消息</span>
+			</a>
+		</nav>
+</body>
+<script type="text/javascript">
+	mui('body').on('tap','a',function(){document.location.href=this.href;});
+</script>
+</script>
+</html>

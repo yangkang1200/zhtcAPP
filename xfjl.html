@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+    <script src="js/jquery-2.0.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header id="header" class="mui-bar mui-bar-nav nav-title">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">消费记录</h1>
+	</header>
+	<div class="mui-content yycg_ym">
+		<div class="xfjl_con">
+			<ul class="xfjl_first">
+				<h1>康桥华城国际中心地下停车场</h1>
+				<li>
+					<span>入场时间：</span>
+					<span>2017-05-12 18:26</span>
+				</li>
+				<li>
+					<span>停车时长：</span>
+					<span>2小时10分</span>
+				</li>
+				<li>
+					<span>停车费用：</span>
+					<span style="color: #e8ae43;">¥3.00</span>
+				</li>
+			</ul>
+			<p>选择支付方式</p>
+			<ul class="xfjl_sec">
+				<li>
+					<img src="images/zfb.png" alt="" />
+					<span>支付宝支付</span>
+					<input type="radio" name="zf" id="" value="" />
+					<i class="iconfont icon-duihao1 bagxs"></i>
+				</li>
+				<li>
+					<img src="images/wx.png" alt="" />
+					<span>微信支付</span>
+					<input type="radio" name="zf" id="" value="" />
+					<i class="iconfont icon-duihao1"></i>
+				</li>
+			</ul>
+			<div class="ljzf">
+				<button>立即支付</button>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	mui('body').on('tap','a',function(){document.location.href=this.href;});
+</script>
+</script>
+</html>
